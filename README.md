@@ -7,7 +7,10 @@ Dataset : https://www.kaggle.com/uciml/human-activity-recognition-with-smartphon
 The Human Activity Recognition database was built from the recordings of 30 study participants performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors. The objective is to classify activities into one of the six activities performed.
 
 
+
+
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years.
+
 
 
 Each person performed following six activities wearing a smartphone (Samsung Galaxy S II) on the waist:
@@ -29,12 +32,20 @@ Using its embedded accelerometer and gyroscope, we captured 3-axial linear accel
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed- width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-Attribute information
+> Attribute information
 
-For each record in the dataset the following is provided:
+   For each record in the dataset the following is provided:
 
-Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
-Triaxial Angular velocity from the gyroscope.
-A 561-feature vector with time and frequency domain variables.
-Its activity label.
-An identifier of the subject who carried out the experiment.
+* Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+
+
+* Triaxial Angular velocity from the gyroscope.
+
+
+* A 561-feature vector with time and frequency domain variables.
+
+
+* Its activity label.
+
+
+* An identifier of the subject who carried out the experiment.
